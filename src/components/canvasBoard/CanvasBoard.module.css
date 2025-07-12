@@ -1,0 +1,15 @@
+.canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fafafa;
+    user-select: none;
+    cursor: grab;
+    transition: background-color 0.2s ease;
+}
+
+.canvas:active {
+    cursor: grabbing;
+    background-color: #f0f0f0;
+}
+

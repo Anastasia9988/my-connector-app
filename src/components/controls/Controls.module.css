@@ -1,0 +1,84 @@
+/* src/components/Controls/Controls.module.css */
+.controls {
+    position: absolute;
+    width: 260px;
+    min-height: 180px;
+    top: 16px;
+    right: 16px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 14px 14px 10px 14px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    z-index: 10;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section h4 {
+    margin: 0 0 3px 0;
+    font-size: 16px;
+    color: #323232;
+}
+
+.section label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    min-width: 0;
+}
+
+.section select,
+.section input[type="range"],
+.section input[type="number"] {
+    margin-left: 8px;
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.section input[type="range"] {
+    cursor: pointer;
+    width: 100%;
+}
+
+.value {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #1669c7;
+}
+
+.rectInputs {
+    margin-bottom: 10px;
+    border: 1px solid #e6e6e6;
+    padding: 8px 6px 4px 6px;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    background: #fafbfc;
+}
+.rectInputs label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    min-width: 90px;
+    flex: 1 0 46%;
+}
+
+.rectInputs input[type="number"] {
+    width: 60px;
+    padding: 2px 3px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #d3d3d3;
+}
