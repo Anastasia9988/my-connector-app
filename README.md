@@ -23,6 +23,12 @@
 
 👉 [my-connector-app.vercel.app](https://my-connector-app.vercel.app/)
 
+Можно менять размеры, расположение квадратов, линии, оси
+## Screenshots
+![Снимок](https://github.com/user-attachments/assets/b234da07-9701-4c00-afef-74ec1fae66d9)
+![Снимок2](https://github.com/user-attachments/assets/1de703a4-3243-406e-9f91-d17a9523dfe6)
+
+
 ---
 
 ## 📦 Быстрый старт
